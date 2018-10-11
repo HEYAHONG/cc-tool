@@ -78,7 +78,7 @@ void CC_Base::init_options(po::options_description &desc)
 				"set programmer deivce usb address 'bus:device'");
 
 	desc.add_options()
-		("fast,f", "set fast debug interface speed (by default: slow)"); //TODO made fast by default
+		("fast,f", "set fast debug interface speed (by default: slow)");
 
 	desc.add_options()
 		("name,n", po::value<String>(&option_unit_name_),
@@ -229,7 +229,7 @@ bool CC_Base::execute(int argc, char *argv[])
 		}
 		std::cout << "\n";
 	}
-	catch (po::error& e) //command line error
+	catch (po::error& e) // command line error
 	{
 		std::cout << "  Bad command line options";
 		if (strlen(e.what()))

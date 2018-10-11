@@ -14,9 +14,9 @@
 #include "common.h"
 
 const uint_t VERSION_MAJOR	= 0;
-const uint_t VERSION_MINOR	= 18;
+const uint_t VERSION_MINOR	= 26;
 
 const char MODULE_NAME[]		= "cc-tool";
-const char MODULE_DESCRIPTION[]	= "Texas Instruments 8051-based System-On-Chip devices programmer using TI CC Debugger";
+const char MODULE_DESCRIPTION[]	= "Texas Instruments 8051-based System-On-Chip device programmer";
 
 #endif // !_VERSION_H_
